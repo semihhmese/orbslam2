@@ -1,6 +1,6 @@
 # orbslam2
 # ORB-SLAM 2 Installation Guide
-⋅⋅⋅ This post is about how to build and run ORB SLAM2. If you follow the following guidance in the orders, you will not face any troubles with ORB SLAM2 installation. You can easily run ORB SLAM2 in here, then you can install it in your local to modify or do other things.
+⋅⋅⋅This post is about how to build and run ORB SLAM2. If you follow the following guidance in the orders, you will not face any troubles with ORB SLAM2 installation. You can easily run ORB SLAM2 in here, then you can install it in your local to modify or do other things.
 
 # 1. OS
 ⋅⋅⋅For now, we have checked for two OS as followed. If you are trying to use other OS, please refer the official documents or other guidance.
@@ -12,8 +12,8 @@
 ## 2.1. Kitti Dataset Download
 
 **NOTE:Dataset requires about 22GB that means it requires much time to download, so it would be better to download first and then move to the next step.**
-⋅⋅⋅First, you can follow the link as followed. Then, you can download the dataset via 
-⋅⋅⋅[Download odometry data set (grayscale, 22 GB)](https://www.cvlibs.net/datasets/kitti/user_login.php)
+⋅⋅⋅First, you can follow the link as followed. Then, you can download the dataset via [Download odometry data set (grayscale, 22 GB)](https://www.cvlibs.net/datasets/kitti/user_login.php)
+⋅⋅⋅
 ⋅⋅⋅[The KITTI Vision Benchmark Suite](https://www.cvlibs.net/datasets/kitti/user_login.php)
 
  **You need to sign up before downloading.**
