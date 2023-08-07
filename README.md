@@ -35,4 +35,7 @@ Reference: [How to install OpenCV on Ubuntu 22.04](https://linuxize.com/post/how
  libxvidcore-dev libx264-dev libjpeg-dev libpng-dev libtiff-dev \
  gfortran openexr libatlas-base-dev python3-dev python3-numpy \
  libtbb2 libtbb-dev libdc1394-22-dev`
- 
+ ## 2.3.2. Download OpenCV, OpenCV_contrib repository
+
+ `git clone https://github.com/opencv/opencv.git`
+ `git clone https://github.com/opencv/opencv_contrib.git`
