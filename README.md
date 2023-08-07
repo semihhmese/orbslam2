@@ -13,9 +13,9 @@ For now, we have checked for two OS as followed. If you are trying to use other 
 
 **NOTE:Dataset requires about 22GB that means it requires much time to download, so it would be better to download first and then move to the next step.**
 First, you can follow the link as followed. Then, you can download the dataset via [Download odometry data set (grayscale, 22 GB)](https://www.cvlibs.net/datasets/kitti/user_login.php)
-< br >
+
 [The KITTI Vision Benchmark Suite](https://www.cvlibs.net/datasets/kitti/user_login.php)
-< br >
+
  **You need to sign up before downloading.**
 
 ## 2.2. Update Package Info
