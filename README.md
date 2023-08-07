@@ -14,16 +14,16 @@ For now, we have checked for two OS as followed. If you are trying to use other 
 https://www.cvlibs.net/datasets/kitti/user_login.php
 You need to sign up before downloading.
 
-2.2. Update Package Info
+## 2.2. Update Package Info
 ~$ sudo apt update && sudo apt upgrade
 
-2.3. OpenCV
+## 2.3. OpenCV
 Reference: How to install OpenCV on Ubuntu 18.04
 https://linuxize.com/post/how-to-install-opencv-on-ubuntu-18-04/
 
 https://itslinuxfoss.com/guide-install-opencv-ubuntu/
 
-2.3.1. Install Dependency
+## 2.3.1. Install Dependency
 💡 You need to change the last libdc1394-22-dev into libdc1394-dev if you are using Ubuntu 22.04 or upper version.
 
 ~$ sudo apt install build-essential cmake git pkg-config libgtk-3-dev \
