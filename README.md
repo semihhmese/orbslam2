@@ -15,7 +15,9 @@ https://www.cvlibs.net/datasets/kitti/user_login.php
 You need to sign up before downloading.
 
 ## 2.2. Update Package Info
+“`
 ~$ sudo apt update && sudo apt upgrade
+“`
 
 ## 2.3. OpenCV
 
