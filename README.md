@@ -20,7 +20,7 @@
 
 ## 2.2. Update Package Info
 
-~$ sudo apt update && sudo apt upgrade
+'~$ sudo apt update && sudo apt upgrade'
 
 ## 2.3. OpenCV
 
