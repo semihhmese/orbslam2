@@ -1,6 +1,6 @@
 # orbslam2
-ORB-SLAM 2 Installation Guide
-- This post is about how to build and run ORB SLAM2. If you follow the following guidance in the orders, you will not face any troubles with ORB SLAM2 installation. Special thanks to HeejoonLee, our team provide Docker images for easy way in our blog. You can easily run ORB SLAM2 in here, then you can install it in your local to modify or do other things.
+# ORB-SLAM 2 Installation Guide
+- This post is about how to build and run ORB SLAM2. If you follow the following guidance in the orders, you will not face any troubles with ORB SLAM2 installation. You can easily run ORB SLAM2 in here, then you can install it in your local to modify or do other things.
 
 # 1. OS
 For now, we have checked for two OS as followed. If you are trying to use other OS, please refer the official documents or other guidance.
@@ -18,9 +18,7 @@ First, you can follow the link as followed. Then, you can download the dataset v
  **You need to sign up before downloading.**
 
 ## 2.2. Update Package Info
-"'
-~$ sudo apt update && sudo apt upgrade
-"'
+"'~$ sudo apt update && sudo apt upgrade"'
 
 ## 2.3. OpenCV
 
