@@ -40,3 +40,26 @@ Reference: [How to install OpenCV on Ubuntu 22.04](https://linuxize.com/post/how
  `git clone https://github.com/opencv/opencv.git`
  
  `git clone https://github.com/opencv/opencv_contrib.git`
+
+## 2.3.3. OpenCV, OpenCV_contrib 3.4.9 branch checkout
+
+**Note that OpenCV 4.x version is not compatible with ORB SLAM2. Please keep in mind that OpenCV 4.x will be set if you install with default option.**
+
+`cd opencv`
+
+`/opencv$ git checkout 3.4.9`
+
+`/opencv$ cd ../opencv_contrib`
+
+`/opencv_contrib$ git checkout 3.4.9`
+
+
+
+
+
+
+
+
+
+
+ 
