@@ -18,6 +18,7 @@ You need to sign up before downloading.
 ~$ sudo apt update && sudo apt upgrade
 
 ## 2.3. OpenCV
+
 Reference: How to install OpenCV on Ubuntu 18.04
 https://linuxize.com/post/how-to-install-opencv-on-ubuntu-18-04/
 
