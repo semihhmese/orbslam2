@@ -24,10 +24,8 @@ https://www.cvlibs.net/datasets/kitti/user_login.php
 
 ## 2.3. OpenCV
 
-Reference: How to install OpenCV on Ubuntu 18.04
-https://linuxize.com/post/how-to-install-opencv-on-ubuntu-18-04/
+Reference: [How to install OpenCV on Ubuntu 22.04](https://linuxize.com/post/how-to-install-opencv-on-ubuntu-18-04/)
 
-https://itslinuxfoss.com/guide-install-opencv-ubuntu/
 
 ## 2.3.1. Install Dependency
  You need to change the last libdc1394-22-dev into libdc1394-dev if you are using Ubuntu 22.04 or upper version.
