@@ -24,7 +24,7 @@ First, you can follow the link as followed. Then, you can download the dataset v
 
 ## 2.3. OpenCV
 
-Reference: [How to install OpenCV on Ubuntu 22.04](https://linuxize.com/post/how-to-install-opencv-on-ubuntu-18-04/)
+Reference: [How to install OpenCV on Ubuntu 18.04](https://linuxize.com/post/how-to-install-opencv-on-ubuntu-18-04/)
 
 
 ## 2.3.1. Install Dependency
@@ -53,7 +53,21 @@ Reference: [How to install OpenCV on Ubuntu 22.04](https://linuxize.com/post/how
 
 `/opencv_contrib$ git checkout 3.4.9`
 
+## 2.3.4. CMake
+`/opencv_contrib$ cd ../opencv`
 
+`/opencv$ mkdir build && cd build`
+
+`/opencv/build$ cmake -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules ..`
+
+## 2.3.5. Build OpenCV
+`/opencv/build$ make -j8`
+
+## 2.3.6. Install OpenCV
+`/opencv/build$ sudo make install`
+
+## 2.4 Eigen3
+`sudo apt install libeigen3-dev`
 
 
 
