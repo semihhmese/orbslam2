@@ -1,6 +1,6 @@
 # orbslam2
-ORB-SLAM 2 Installation GuidePermalink
-This post is about how to build and run ORB SLAM2. If you follow the following guidance in the orders, you will not face any troubles with ORB SLAM2 installation. Special thanks to HeejoonLee, our team provide Docker images for easy way in our blog. You can easily run ORB SLAM2 in here, then you can install it in your local to modify or do other things.
+ORB-SLAM 2 Installation Guide
+- This post is about how to build and run ORB SLAM2. If you follow the following guidance in the orders, you will not face any troubles with ORB SLAM2 installation. Special thanks to HeejoonLee, our team provide Docker images for easy way in our blog. You can easily run ORB SLAM2 in here, then you can install it in your local to modify or do other things.
 
 # 1. OS
 For now, we have checked for two OS as followed. If you are trying to use other OS, please refer the official documents or other guidance.
@@ -12,7 +12,7 @@ For now, we have checked for two OS as followed. If you are trying to use other 
 ## 2.1. Kitti Dataset Download
 **NOTE:Dataset requires about 22GB that means it requires much time to download, so it would be better to download first and then move to the next step.**
 https://www.cvlibs.net/datasets/kitti/user_login.php
-You need to sign up before downloading.
+- You need to sign up before downloading.
 
 ## 2.2. Update Package Info
 “`
