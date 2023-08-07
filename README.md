@@ -10,8 +10,11 @@ For now, we have checked for two OS as followed. If you are trying to use other 
 
 # 2. Prerequisites
 ## 2.1. Kitti Dataset Download
+
 **NOTE:Dataset requires about 22GB that means it requires much time to download, so it would be better to download first and then move to the next step.**
+
 https://www.cvlibs.net/datasets/kitti/user_login.php
+
 - You need to sign up before downloading.
 
 ## 2.2. Update Package Info
