@@ -155,7 +155,7 @@ cd ORB_SLAM2
 
 # 5. Run ORB-SLAM 2
 ```bash
-./Examples/Monocular/mono_tum Vocabulary/ORBvoc.txt Examples/Monocular/TUM2.yaml rgbd_dataset_freiburg1_desk
+./Examples/Monocular/mono_tum Vocabulary/ORBvoc.txt Examples/Monocular/TUM2.yaml yourpath/rgbd_dataset_freiburg1_desk
 ```
 
 
