@@ -23,7 +23,9 @@ First, you can follow the link as followed. Then, you can download the dataset v
 
 ## 2.2. Update Package Info
 
-`sudo apt update && sudo apt upgrade`
+```bash
+sudo apt update && sudo apt upgrade
+```
 
 ## 2.3. OpenCV
 
