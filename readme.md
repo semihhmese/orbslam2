@@ -42,80 +42,120 @@ Reference: [How to install OpenCV on Ubuntu 18.04](https://linuxize.com/post/how
  libtbb2 libtbb-dev libdc1394-22-dev`
  ### 2.3.2. Download OpenCV, OpenCV_contrib repository
 
- `git clone https://github.com/opencv/opencv.git`
+ ```bash
+ git clone https://github.com/opencv/opencv.git
+```
  
- `git clone https://github.com/opencv/opencv_contrib.git`
+ ```bash
+ git clone https://github.com/opencv/opencv_contrib.git
+```
 
 ### 2.3.3. OpenCV, OpenCV_contrib 3.4.9 branch checkout
 
 **Note that OpenCV 4.x version is not compatible with ORB SLAM2. Please keep in mind that OpenCV 4.x will be set if you install with default option.**
 
-`cd opencv`
-
-`/opencv$ git checkout 3.4.9`
-
-`/opencv$ cd ../opencv_contrib`
-
-`/opencv_contrib$ git checkout 3.4.9`
+```bash
+cd opencv
+```
+```bash
+/opencv$ git checkout 3.4.9
+```
+```bash
+/opencv$ cd ../opencv_contrib
+```
+```bash
+/opencv_contrib$ git checkout 3.4.9
+```
 
 ### 2.3.4. CMake
-`/opencv_contrib$ cd ../opencv`
-
-`/opencv$ mkdir build && cd build`
-
-`/opencv/build$ cmake -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules ..`
+```bash
+/opencv_contrib$ cd ../opencv
+```
+```bash
+/opencv$ mkdir build && cd build
+```
+```bash
+/opencv/build$ cmake -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules ..
+```
 
 ### 2.3.5. Build OpenCV
-`/opencv/build$ make -j8`
+```bash
+/opencv/build$ make -j8
+```bash
 
 ### 2.3.6. Install OpenCV
-`/opencv/build$ sudo make install`
+```bash
+/opencv/build$ sudo make install
+```
 
 ## 2.4 Eigen3
-`sudo apt install libeigen3-dev`
+```bash
+sudo apt install libeigen3-dev
+```
 
 ## 2.5. Pangolin
 [Reference1: https://blog.csdn.net/Robert_Q/article/details/121690089]()
 []()
 
 ### 2.5.1. Download Pangolin repository
-`git clone --recursive https://github.com/stevenlovegrove/Pangolin.git`
-
-`cd Pangolin`
+```bash
+git clone --recursive https://github.com/stevenlovegrove/Pangolin.git
+```
+```bash
+cd Pangolin
+```
 
 ### 2.5.2. Install Dependency
-`/Pangolin$ ./scripts/install_prerequisites.sh recommended`
+```bash
+/Pangolin$ ./scripts/install_prerequisites.sh recommended
+```
 
 ### 2.5.3. Pangolin v0.5 branch checkout
 **Note that ORB SLAM2 is not compatible with Pangolin v0.6 or upper version. Please keep in mind that Pangolin v0.8 will be installed if you install with default option.**
-`/Pangolin$ git checkout v0.5`
+```bash
+/Pangolin$ git checkout v0.5
+```
 
 ### 2.5.4. Modify Pangolin source code
 
 ### 2.5.5. Build Pangolin
-`/Pangolin$ cmake -B build`
-`/Pangolin$ cmake --build build`
+```bash
+/Pangolin$ cmake -B build
+```
+```bash
+/Pangolin$ cmake --build build
+```
 
 ### 2.5.6. Install Pangolin
-`/Pangolin$ cd build`
-
-`/Pangolin/build$ sudo make install`
+```bash
+/Pangolin$ cd build
+```
+```bash
+/Pangolin/build$ sudo make install
+```
 
 # 3. ORB SLAM 2
 ## 3.1. Download ORB-SLAM 2 repository
-`git clone https://github.com/raulmur/ORB_SLAM2.git ORB_SLAM2`
+```bash
+git clone https://github.com/raulmur/ORB_SLAM2.git ORB_SLAM2
+```
 
 ## 3.2. Modify ORB-SLAM 2 source code
 
 ## 3.3. Build ORB-SLAM 2
-`cd ORB_SLAM2`
-
-`/ORB_SLAM2$ ./build.sh`
+```bash
+cd ORB_SLAM2
+```
+```bash
+/ORB_SLAM2$ ./build.sh
+```
 
 # 4. Xming(Optional for WSL2 environment)
 
 # 5. Run ORB-SLAM 2
-`/ORB_SLAM2$ ./Examples/Monocular/mono_kitti Vocabulary/ORBvoc.txt Examples/Monocular/KITTI00-02.yaml [kitti dataset 경로]/odometry_gray/sequences/00`
+```bash
+./Examples/Monocular/mono_tum Vocabulary/ORBvoc.txt Examples/Monocular/TUM2.yaml rgbd_dataset_freiburg1_desk
+```
 
 
  
